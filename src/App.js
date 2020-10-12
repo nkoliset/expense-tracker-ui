@@ -11,8 +11,7 @@ import { IncomeExpense } from './components/IncomeExpense';
 
 function App() {
   return (
-    <GlobalProvider>
-      //Header information
+    <GlobalProvider>      
       <Header />      
       <div className="container">
         <Balance />
